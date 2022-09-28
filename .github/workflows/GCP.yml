@@ -1,6 +1,7 @@
 name: Docker
 
 on:
+  commit_comment: [master]
   push:
     branches: [ master ]
   pull_request:
