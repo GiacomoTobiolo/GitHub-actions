@@ -21,6 +21,7 @@ func HelloWorld() Phrase {
     }
 }
 
+
 func GetPhrase(w http.ResponseWriter, r *http.Request) {
     json.NewEncoder(w).Encode(HelloWorld())
 }
