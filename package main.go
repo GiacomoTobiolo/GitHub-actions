@@ -10,7 +10,8 @@ import (
 )
 
 type Phrase struct {
-    Text string `json:"phrase"`
+    Text string `json:"phrase"` 
+    
 }
 
 func HelloWorld() Phrase {
